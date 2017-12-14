@@ -5,4 +5,5 @@ package jp.techacademy.mito.yuuya.javalog;
  */
 
 public interface Thinkable {
+    public void think();
 }
