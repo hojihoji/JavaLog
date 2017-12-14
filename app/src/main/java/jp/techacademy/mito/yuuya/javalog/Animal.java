@@ -1,8 +1,10 @@
 package jp.techacademy.mito.yuuya.javalog;
 
-/**
- * Created by yuyamito on 2017/12/14.
- */
+abstract class Animal {
+    // メンバ変数
+    String name;  // 名前
+    int age;    // 年齢
 
-public class Animal {
+    abstract public void say();
+
 }

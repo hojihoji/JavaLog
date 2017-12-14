@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
         Human human = new Human("佐藤", 32, "ドライブ");     //
 
-        human.introduce();
+        human.say();
 
         human.think();
     }
